@@ -2,7 +2,7 @@
 
 
 
-Tech Stack:
+#Tech Stack:
 Backend : Django
 Database : PostgreSql
 
@@ -18,7 +18,7 @@ b) Set:
 
 2) git clone https://github.com/yogeshTheCaptain/essenvia_assignment_1.git
 
-3) Go to Essenvia_assignment_2/electronic_store/order_management/Database/ :
+3) electronic_store/order_management/Database/ :
 	Run data_table.py
 
 	It will create table in the database
