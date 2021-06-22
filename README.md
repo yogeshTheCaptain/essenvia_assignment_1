@@ -2,7 +2,7 @@
 
 
 
-#Tech Stack:
+Tech Stack:
 Backend : Django
 Database : PostgreSql
 
