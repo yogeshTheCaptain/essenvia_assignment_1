@@ -14,7 +14,7 @@ def fetch_price_of_order_id(order_id):
         total_price = 0
         for data in x:
             if getattr(data, ItemTable.item_status.name) == "true":
-                total_price += getattr(data, ItemTable.item_price.name)
+                total_price += getattr(data, ItemTable.item_price.name) * getattr(data, ItemTable.item_quantity.name)
 
     return total_price
 
