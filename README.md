@@ -15,6 +15,11 @@ b) Set:
 	username = postgres
 	password = 123
 	database = postgres
+c) Tables :
+	warehous_inventory : Contain all item available in electronic store
+	order_details      : Contain basic info of an order placed
+	item_table         : Contain all placed item details with their staus as true or false (true: available , false :not available)
+	team_table         : For an internal use of team logic only
 
 2) git clone https://github.com/yogeshTheCaptain/essenvia_assignment_1.git
 
